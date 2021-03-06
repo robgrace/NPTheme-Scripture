@@ -2,7 +2,7 @@
 NotePlan app theme with parchment-and-leather look, and Bible cross-links
 
 # Overview
-This is a theme for the awesome Mac and iOS app "NotePlan".  
+This is a theme for the awesome Mac and iOS app "NotePlan" [link](https://apps.apple.com/us/app/noteplan-3/id1505432629)
 The author, Eduard Metzger, recently added theming support, so this prompted me to try my hand 
 at a simple theme that gave the feel of real paper, like many Bible apps do.  
 On top of this, the "bold" font was repurposed to be "words of Christ" in bright red.
