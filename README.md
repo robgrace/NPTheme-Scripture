@@ -7,9 +7,19 @@ The author, Eduard Metzger, recently added theming support, so this prompted me 
 at a simple theme that gave the feel of real paper, like many Bible apps do.  
 On top of this, the "bold" font was repurposed to be "words of Christ" in bright red.
 
-# Additional Features
+# Basic Use
+This theme will highlight any verse references in your notes that have ANY combination of the following letters and numbers:
+[#]Book chap#:verse#[-range#]
 
-## Links!
+Examples:
+**1Pe 1:20-21**
+**Romans 2:7**
+
+("Book" is case-independent, and is ANY alpha string). Verse # and range are optional.  
+
+NOTE: In its standard form, chapter-only references will not be parsed, as it leads to too many false hits on other note text.  However, a solution is provided in the Alternate form described below. 
+
+# Links!
 Serendipitously, there is a linking feature in the theming mechanism, using simple Javascript/JSON regular expressions.   
 So for any text matching a designated regexp, we can not only highlight the matched verse reference, but we can also send the matched text to a URL handler that can either open another app (X-url-callback) or append it to a base URL.  
 This is a great option for Bible verse references in a note, sending the user straight to his/her favorite online Bible!
@@ -24,18 +34,6 @@ A verse ref delimited with single brackets, e.g. [John 3:16], will send the user
 
 3. Other linked Bibles?
 You are of course free to copy and modify the linking schemes to your liking, even creating new delimiters as alternatives others could use. 
-
-# Use
-This theme will parse any verse references in your notes that have ANY combination of the following letters and numbers:
-[#]Book chap#[:verse#][-range#]
-Examples:
-**1Pe 1:20-21**
-**Romans 2:7**
-**gen 1**
-
-("Book" is case-independent, and is ANY alpha string). Verse # and range are optional.  Presently, verses cannot span a new chapter
-
-NOTE: because of the "loose" regexp behind this, it is very possible that non-verse text will occasionally be parsed as a verse reference. 
 
 # Suggestions
 In the wee hours of your morning Bible studies, try this theme along with iOS "Night Shift" to tune the warmth of the colors!
