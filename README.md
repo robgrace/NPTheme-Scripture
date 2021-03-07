@@ -20,5 +20,27 @@ You are free to copy and modify this theme to your liking, and my hope is that i
 (maybe you'll figure out the URL encode stuff before me!).  Please feel free to fork this repo and put in pull requests for changes you
 think would benefit others
 
+# Use
+This theme will parse any verse references in your notes that have ANY combination of the following letters and numbers:
+[#]Book chap#[:verse#][-range#]
+Examples:
+**1Pe 1:20-21**
+**Romans 2:7**
+**gen 1**
+
+("Book" is case-independent, and is ANY alpha string). Verse # and range are optional.  Presently, verses cannot span a new chapter
+
+NOTE: because of the "loose" regexp behind this, it is very possible that non-verse text will occasionally be parsed as a verse reference. 
+
+# Suggestions
+In the wee hours of your morning Bible studies, try this theme along with iOS "Night Shift" to tune the warmth of the colors!
+
+# Roadmap
+The following features / changes are planned:
+- New styles for highlighting text
+- Link to BibleGateway (possibly retain OliveTree with alternate delimiters)
+- Dark theme!
+- Better regexp restricted to matching canonical Bible book names and abbreviations
+
 Thank you, and God bless!
 -Rob Grace ("gracius" on Discord)
