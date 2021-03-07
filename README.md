@@ -8,17 +8,22 @@ at a simple theme that gave the feel of real paper, like many Bible apps do.
 On top of this, the "bold" font was repurposed to be "words of Christ" in bright red.
 
 # Additional Features
+
+## Links!
 Serendipitously, there is a linking feature in the theming mechanism, using simple Javascript/JSON regular expressions.   
-So for any text matching a designated regexp, we can not only highlight the matched verse reference, but we can also send 
-the matched text to a URL handler that can either open another app (X-url-callback) or append it to a base URL.  
+So for any text matching a designated regexp, we can not only highlight the matched verse reference, but we can also send the matched text to a URL handler that can either open another app (X-url-callback) or append it to a base URL.  
 This is a great option for Bible verse references in a note, sending the user straight to his/her favorite online Bible!
 
-Bible Gateway would be a natural choice, but for the initial implementation of this theme, I couldn't figure out a way to reparse the fragments of a verse regexp into a snippet acceptable to the Bible Gateway syntax (URL-encoding of special characters, like space and ":").  So for now,
-I simply send the verse citation to the OliveTree BibleReader app, which may Bible enthusiasts have on their devices already on their Mac or iOS devices.
+There are presently *two styles* of links:
 
-You are free to copy and modify this theme to your liking, and my hope is that it provides a template for further improvements and options
-(maybe you'll figure out the URL encode stuff before me!).  Please feel free to fork this repo and put in pull requests for changes you
-think would benefit others
+1. Standard: OliveTree BibleReader
+A citation like "John 3:16" will be highlighted, and clicking will send the user to the OliveTree BibleReader app, displaying the verse in its surrounding context.  This is my preferred app, and is supported on both Mac and iOS devices. Presently, the URL scheme only brings up verses in a popup window.  
+
+2. Alternate: Bible Gateway 
+A verse ref delimited with single brackets, e.g. [John 3:16], will send the user to Bible Gateway website via the default browser, using the default Bible version the user has set up there. Delimited text will allow chapter-only references, e.g. "Romans 2".  Note that Bible Gateway also displays *only* the specific verses or ranges that are sent. 
+
+3. Other linked Bibles?
+You are of course free to copy and modify the linking schemes to your liking, even creating new delimiters as alternatives others could use. 
 
 # Use
 This theme will parse any verse references in your notes that have ANY combination of the following letters and numbers:
@@ -41,6 +46,9 @@ The following features / changes are planned:
 - Link to BibleGateway (possibly retain OliveTree with alternate delimiters)
 - Dark theme!
 - Better regexp restricted to matching canonical Bible book names and abbreviations
+
+Please feel free to fork this repo and put in pull requests for changes you
+think would benefit others
 
 Thank you, and God bless!
 -Rob Grace ("gracius" on Discord)
