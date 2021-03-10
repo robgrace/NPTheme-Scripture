@@ -1,11 +1,9 @@
 # NPTheme-Scripture
 NotePlan app theme with parchment-and-leather look, and Bible cross-links
 
-# Standard (day) Theme
-![Day screenshot](./Screenshot.png)
-
-# Night Theme
-![Night screnshot](./Screenshot-Night.png)
+# Day and Night Themes
+<img src="./Screenshot.png" data-canonical-src="./Screenshot.png" width="320"  />
+<img src="./Screenshot-Night.png" data-canonical-src="./Screenshot-Night.png" width="320"  />
 
 # Overview
 This is a theme for the awesome Mac and iOS app ["NotePlan"](https://apps.apple.com/us/app/noteplan-3/id1505432629)
