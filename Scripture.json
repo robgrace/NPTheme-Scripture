@@ -10,7 +10,7 @@
         "backgroundColor": "#ffffdd",
         "altBackgroundColor": "#eeeecc",
         "tintColor": "#907363",
-        "tintColor2": "#007138",
+        "tintColor2": "#ff1010",
         "textColor":"#000000",
         "toolbarBackgroundColor": "#ffffcc",
         "toolbarIconColor": "#FF4444",
@@ -23,7 +23,8 @@
         "body": {
             "font": "Palatino-Roman",
             "size": 19,
-            "color": "#000000"        },
+            "color": "#000000"
+        },
         
         "title1": {
             "color": "#743101",
@@ -159,7 +160,7 @@
             "matchPosition": 1,
             "urlPosition": 1,
             "type": "link",
-            "backgroundColor":"#ccccef",
+            "backgroundColor":"#efefcc",
             "font": "AvenirNext-Bold",
             "prefix": "https://www.biblegateway.com/passage/?search="
         },   
