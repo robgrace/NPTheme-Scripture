@@ -15,12 +15,15 @@ This theme will highlight any verse references in your notes that have ANY combi
 [#]Book chap#:verse#[-range#]
 
 Examples:
-**1Pe 1:20-21**
-**Romans 2:7**
+
+> **1Pe 1:20-21**
+
+> **Romans 2:7**
+
 
 ("Book" is case-independent, and is ANY alpha string). Verse # and range are optional.  
 
-NOTE: In its standard form, chapter-only references will not be parsed, as it leads to too many false hits on other note text.  However, a solution is provided in the Alternate form described below. 
+NOTE: In its standard form, chapter-only references will not be parsed, as it leads to too many false hits on other note text.  However, a solution is provided in the "Alternate" link form described below. 
 
 # Links!
 Serendipitously, there is a linking feature in the theming mechanism, using simple Javascript/JSON regular expressions.   
@@ -33,7 +36,7 @@ There are presently *two styles* of links:
 A citation like "John 3:16" will be highlighted, and clicking will send the user to the OliveTree BibleReader app, displaying the verse in its surrounding context.  This is my preferred app, and is supported on both Mac and iOS devices. Presently, the URL scheme only brings up verses in a popup window.  
 
 2. Alternate: Bible Gateway 
-A verse ref delimited with single brackets, e.g. [John 3:16], will send the user to Bible Gateway website via the default browser, using the default Bible version the user has set up there. Delimited text will allow chapter-only references, e.g. "Romans 2".  Note that Bible Gateway also displays *only* the specific verses or ranges that are sent. 
+A verse ref delimited with single brackets, e.g. [John 3:16], will send the user to Bible Gateway website via the default browser, using the default Bible version the user has set up there. Delimited text will allow chapter-only references, e.g. [Romans 2].  Note that Bible Gateway also displays *only* the specific verses or ranges that are sent. 
 
 3. Other linked Bibles?
 You are of course free to copy and modify the linking schemes to your liking, even creating new delimiters as alternatives others could use. 
