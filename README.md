@@ -33,7 +33,7 @@ This is a great option for Bible verse references in a note, sending the user st
 There are presently *two styles* of links:
 
 1. Standard: OliveTree BibleReader
-A citation like "John 3:16" will be highlighted, and clicking will send the user to the OliveTree BibleReader app, displaying the verse in its surrounding context.  This is my preferred app, and is supported on both Mac and iOS devices. Presently, the URL scheme only brings up verses in a popup window.  
+A citation like "John 3:16" will be highlighted, and clicking will send the user to the OliveTree BibleReader app, displaying the verse in its surrounding context.  This is my preferred app, and is supported on both Mac and iOS devices. Presently on Mac, the URL scheme only brings up verses in a popup window (a support ticket has been filed to request this work with the Main window).  Note also that the behavior on mobile platforms requires OliveTree app to be opened already, else the app spins endlessly (a known bug OliveTree promised to address in a future release).
 
 2. Alternate: Bible Gateway 
 A verse ref delimited with single brackets, e.g. [John 3:16], will send the user to Bible Gateway website via the default browser, using the default Bible version the user has set up there. Delimited text will allow chapter-only references, e.g. [Romans 2].  Note that Bible Gateway also displays *only* the specific verses or ranges that are sent. 
